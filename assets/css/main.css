@@ -7329,7 +7329,7 @@ blockquote {
 
 /*# sourceMappingURL=main.css.map */
 .event-section {
-  background: linear-gradient(to bottom right, #4fd1c5, #e4426f);
+  background: #15a384;
 }
 
 .container {
@@ -7360,4 +7360,9 @@ blockquote {
 .img{
   width: 250px;
   height: 100px;
+}
+#secureSafe:hover {
+  cursor: pointer;
+  content: "Tuyển";
+  /* Để biểu tượng chuột thành dấu nhấp */
 }
