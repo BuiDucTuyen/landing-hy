@@ -2995,7 +2995,7 @@ h6 {
 .token__tab .nav-item .nav-link::before,
 .footer__copyright,
 blockquote .icon {
-  background: linear-gradient(270deg, #5E2FF4 0%, #8CA7FF 17.47%, #E4DAFF 39.54%, #C570FB 60.49%, #C3B1FE 84.44%, #5E2FF4 100%); }
+  background: linear-gradient(270deg, #e04193 0%, #8CA7FF 17.47%, #E4DAFF 39.54%, #C570FB 60.49%, #C3B1FE 84.44%, #5E2FF4 100%); }
 
 .blockchain-header__account i,
 .blockchain-header__language .dropdown-menu .dropdown-item::before,
@@ -3004,7 +3004,7 @@ blockquote .icon {
 .roadmap__list-inner::after,
 .footer__widget-community,
 .token-chat__animation {
-  background: linear-gradient(98deg, #2167e8 0%, hwb(161 7% 28%) 100%); }
+  background: linear-gradient(98deg, #e04193 0%, hwb(190 15% 28%) 100%); }
 
 .gradient-bg-2,
 .btc-btn--gradient,
@@ -3013,7 +3013,7 @@ blockquote .icon {
 .footer__btc-links li a::before,
 .faq__btc .accordion_box .block .arrow::before,
 .faq__nav li .nav-link.active {
-  background: linear-gradient(90deg, #45ACAB 0%, #4788AC 100%); }
+  background: linear-gradient(90deg, #e04193 0%, #e04193 100%); }
 
 .sec-title__subtitle,
 .blockchain-header__account i,
@@ -3632,7 +3632,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .hero__blockchain-icon .icon--1 {
       top: -170px;
-      left: 20%; } }
+      left: 10px; } }
   @media (max-width: 1199px) {
     .hero__blockchain-icon .icon--1 {
       left: 0; } }
@@ -7336,11 +7336,11 @@ blockquote {
     right: 0;
     width: 100%;
     z-index: 11; */
+    z-index: 999;
   }
-}
+
 
 .container {
-  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -7356,7 +7356,12 @@ blockquote {
 }
 
 .event-text {
-  font-size: 10px;
+ 
+  font-size: 18px;
+  font-weight: 600;
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .event-icon {
@@ -7366,10 +7371,21 @@ blockquote {
 }
 .img{
   width: 250px;
-  height: 100px;
+  height: auto;
 }
 #secureSafe:hover {
   cursor: pointer;
   content: "Tuyển";
   /* Để biểu tượng chuột thành dấu nhấp */
+}
+.team {
+  display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.logooo {
+  width: 69px;
+  height: 69px;
 }
