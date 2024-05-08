@@ -7444,7 +7444,12 @@ blockquote {
 }
 
 .event-text {
-  font-size: 10px;
+
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
 }
 
 .event-icon {
@@ -7452,9 +7457,9 @@ blockquote {
   height: 20px;
   fill: white;
 }
-.img{
+.img {
   width: 250px;
-  height: 100px;
+  height: auto;
 }
 #secureSafe:hover {
   cursor: pointer;
