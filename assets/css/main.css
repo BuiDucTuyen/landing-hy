@@ -3719,8 +3719,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   left: 25%; }
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .hero__blockchain-icon .icon--1 {
-      top: -170px;
-      left: 20%; } }
+    top: -170px;
+      left: 10px;
+    }
+    }
   @media (max-width: 1199px) {
     .hero__blockchain-icon .icon--1 {
       left: 0; } }
@@ -7465,4 +7467,15 @@ blockquote {
   cursor: pointer;
   content: "Tuyển";
   /* Để biểu tượng chuột thành dấu nhấp */
+}
+.container-fluid_1 {
+  padding: 0 90px;
+
+  @media only screen and (min-width: 1024px) and (max-width: 1500px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 991px) {
+    padding: 10px 10px 10px;
+  }
 }
